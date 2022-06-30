@@ -6,4 +6,5 @@ Feature: Validacion
     And el type es "unknown"
 
   Scenario: vaildar caso error
+    Then caso errror de id512
     Then el codigo de respuesta es 400

@@ -7,10 +7,9 @@ public class ValidarDatos {
 
     private static String URL = "https://www.freetogame.com/api/games?platform?=";
 
-    @Step("Validar status")
+    @Step("Validar {0} status")
     public void validarDatos(int id){
         SerenityRest.given()
-                .contentType("application/json")
-                .get(URL+id);
+                .get(URL);
     }
 }
