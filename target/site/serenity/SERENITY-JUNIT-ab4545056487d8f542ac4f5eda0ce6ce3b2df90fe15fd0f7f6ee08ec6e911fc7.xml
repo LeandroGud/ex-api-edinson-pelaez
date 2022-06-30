@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validacion" skipped="0" tests="2" time="3.03" timestamp="2022-06-30 01:14:29"><testcase name="validando estatus y propiedades"/><testcase name="vaildar caso error"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+api.test.qa.lab@1.0-SNAPSHOT/StepsDefs.CasoErrorStepsDefs.lambda$elCodigoRespuestaEs$0(CasoErrorStepsDefs.java:23)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+api.test.qa.lab@1.0-SNAPSHOT/StepsDefs.CasoErrorStepsDefs.elCodigoRespuestaEs(CasoErrorStepsDefs.java:23)&#13;
+✽.el codigo respuesta es 400(classpath:features/validacion.feature:10)&#13;
+</system-err></testcase></testsuite>

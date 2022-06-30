@@ -1,0 +1,5 @@
+StepsDefs\ValidarStepsDefs.class
+com\nntdata\ValidarDatos.class
+com\nntdata\CasoError.class
+CucumberTestSuite.class
+StepsDefs\CasoErrorStepsDefs.class

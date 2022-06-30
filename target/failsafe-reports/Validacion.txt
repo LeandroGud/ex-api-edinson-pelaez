@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Validacion
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.172 s <<< FAILURE! - in Validacion
+Validacion.vaildar caso error  Time elapsed: 0.364 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
